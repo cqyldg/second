@@ -1,0 +1,161 @@
+/*banner开始*/
+#banner{
+    height:178px ;
+    background: #edf4ed;
+
+}
+#banner .wrapper{
+    height: 100%;
+    background-image: url("../img/doubanapp5.png"),url("../img/doubanapp5_bg.png") ;
+    background-repeat: no-repeat;
+    background-position: 50px -100px, 0 0;
+    overflow: hidden;
+}
+#banner .app{
+    width: 200px;
+    margin-left: 480px;
+    margin-top: 32px;
+}
+
+#banner .app-dwn{
+    display: inline-block;
+    width: 142px;
+    height: 30px;
+    background:#00b51d;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    border-radius:2px;
+    margin-bottom: 7px;
+
+}
+#banner img{
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+}
+#banner .app h1{
+    font-size: 25px;
+    color: #111;
+    margin: 7px auto;
+
+}
+#banner .app p{
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #111;
+    margin-bottom: 5px;
+}
+
+#banner .login-fm {
+    width:272px;
+    position: absolute;
+    top:20px;
+    right: 0;
+
+}
+#banner .login-fm p{
+
+    height: 32px;
+    margin: 5px auto;
+}
+
+#banner .email ,#banner .pw{
+    border: 0;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    text-indent: 7px;
+}
+#banner .pw{
+    width: 236px;
+}
+
+#banner .login-fm .bgf{
+    border: 1px solid #DBE5DB;
+    background: #ffffff;
+}
+.btn{
+    width: 133px;
+    border: 0;
+    color: #fff;
+    padding: 7px 0;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.8;
+    filter: alpha(opacity:80);
+}
+.btn.login{
+    background: #2a8c70;
+}
+.btn.register{
+    border: 1px solid #2a8c70;
+    color: #2a8c70;
+    background: #edf4ed;
+    padding: 6px 0;
+}
+
+#banner .other-lg{
+    float: right;
+}
+#banner .other-lg li{
+    float: left;
+    width: 14px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+#banner .other-lg img{
+    width: 14px;
+    height: 12px;
+}
+#banner .remember-me{
+    float: left;
+}
+
+/*banner结束*/
+/*mod开始*/
+.wrapper .mod{
+    width: 655px;
+    height: 444px;
+
+}
+.mod h3{
+    font: 15px Arial, Helvetica, sans-serif;
+    color: #072;
+    margin: 0 0 12px 0;
+    line-height: 150%;
+}
+.mod a{
+    color: #37a;
+}
+.mod .picture{
+    float: left;
+
+}
+.mod .picture ul{
+    width: 360px;
+    height:420px;
+}
+.mod .picture li{
+    display: inline-block;
+    width: 170px;
+    vertical-align: top;
+}
+.mod .notes{
+    display: block;
+    float: right;
+    width: 270px;
+    height:420px;
+
+}
+.mod .notes p{
+    line-height: 1.62;
+    font-size:12px;
+}
+.mod .notes li{
+    margin-bottom: 12px;
+}
+/*mod结束*/
